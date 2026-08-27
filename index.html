@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Raksha Bandhan, Saanvi Didi 💛</title>
+  <meta name="description" content="A heartfelt Raksha Bandhan wish for Saanvi Didi — with love, always." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Lato:wght@300;400;700&family=Dancing+Script:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Floating Petals Container -->
+  <div id="petals-container" aria-hidden="true"></div>
+
+  <!-- Firefly particles -->
+  <div id="fireflies" aria-hidden="true"></div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="rakhi-img-wrap">
+        <img src="rakhi.png" alt="Rakhi" class="rakhi-img" id="rakhi-img" />
+        <div class="rakhi-glow"></div>
+      </div>
+      <p class="festival-label">✦ Raksha Bandhan 2026 ✦</p>
+      <h1 class="hero-title">
+        <span class="to-text">To my</span>
+        <span class="didi-name">Saanvi Didi</span>
+      </h1>
+      <p class="hero-subtitle">with all the love a little brother can hold 💛</p>
+      <button class="scroll-btn" id="scroll-btn" aria-label="Read the poem">
+        <span>Read the Poem</span>
+        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 5v14M5 12l7 7 7-7" />
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- Poem Section -->
+  <section id="poem-section" class="poem-section">
+    <div class="poem-bg-overlay"></div>
+
+    <div class="poem-container">
+      <h2 class="poem-heading">
+        <span class="poem-title-script">My Didi</span>
+      </h2>
+
+      <!-- Poem Carousel -->
+      <div class="poem-card-wrapper" id="poem-card-wrapper" role="region" aria-label="Poem carousel" aria-live="polite">
+        <div class="poem-card" id="poem-card">
+          <div class="poem-card-inner">
+            <p class="poem-stanza" id="poem-text"></p>
+          </div>
+        </div>
+
+        <!-- Dots nav -->
+        <div class="dots-nav" id="dots-nav" role="tablist" aria-label="Poem stanza navigation"></div>
+
+        <!-- Controls -->
+        <div class="poem-controls">
+          <button class="ctrl-btn" id="btn-prev" aria-label="Previous stanza">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button class="ctrl-btn pause-btn" id="btn-pause" aria-label="Pause auto-play">
+            <svg id="icon-pause" viewBox="0 0 24 24" fill="currentColor">
+              <rect x="6" y="4" width="4" height="16" />
+              <rect x="14" y="4" width="4" height="16" />
+            </svg>
+            <svg id="icon-play" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+              <polygon points="5,3 19,12 5,21" />
+            </svg>
+          </button>
+          <button class="ctrl-btn" id="btn-next" aria-label="Next stanza">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Progress bar -->
+        <div class="progress-bar-wrap">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <p class="stanza-counter" id="stanza-counter"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing Message Section -->
+  <section id="closing" class="closing-section">
+    <div class="closing-content">
+      <div class="heart-wrap">
+        <div class="big-heart" aria-hidden="true">♥</div>
+        <div class="heart-ripple"></div>
+        <div class="heart-ripple delay1"></div>
+        <div class="heart-ripple delay2"></div>
+      </div>
+      <h2 class="closing-title">Happy Raksha Bandhan, Didiii!</h2>
+      <p class="closing-msg">
+        May every happiness the universe holds find its way to you.<br />
+        Your little brother is, and always will be, there for you.
+      </p>
+    </div>
+    <div class="marigold-row" aria-hidden="true">
+      <span class="marigold">🌼</span><span class="marigold">🌸</span>
+      <span class="marigold">🌼</span><span class="marigold">🌸</span>
+      <span class="marigold">🌼</span><span class="marigold">🌸</span>
+      <span class="marigold">🌼</span><span class="marigold">🌸</span>
+      <span class="marigold">🌼</span>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
