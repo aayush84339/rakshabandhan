@@ -8,7 +8,7 @@ const stanzas = [
 
   `Wanna know who she is?\nShe is my everything.\nThe person I tried to leave a thousand times,\nyet somehow, my heart\nalways found its way back to her.`,
 
-  `She is the best sister\na foolish brother like me could ever have,\nthe kind who may be busy most days,\nbut whose little moments of care and love\ncan make the whole world feel softer.`,
+  `She is the best sister\na foolish brother like me could ever have,\nthe kind whose little moments of care and love\ncan make the whole world feel softer.`,
 
   `And once, on the night of Techfest Day 3,\nshe gave me the most beautiful Christmas gift\nI have ever received.`,
 
