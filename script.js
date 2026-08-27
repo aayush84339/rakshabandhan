@@ -31,7 +31,7 @@ const stanzas = [
   `That's my Didi.\n\nAnd I can bet that\nnowhere on this planet,\nin this lifetime or any other,\ncould there ever be\na better Didi for me.`,
 ];
 
-const AUTO_PLAY_INTERVAL = 6500; // ms per stanza
+const AUTO_PLAY_INTERVAL = 10000; // ms per stanza
 
 /* =====================================================
    STATE

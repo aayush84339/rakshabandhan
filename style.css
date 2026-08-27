@@ -359,8 +359,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 320px;
-  height: 320px;
+  min-height: 480px;
+  height: 480px;
   overflow-y: auto;
 }
 
